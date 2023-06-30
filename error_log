@@ -1,0 +1,6 @@
+[23-Jul-2019 15:47:58 America/Mexico_City] PHP Warning:  include(confirma.html): failed to open stream: No such file or directory in /home/kangycom/minox/envia.php on line 29
+[23-Jul-2019 15:47:58 America/Mexico_City] PHP Warning:  include(confirma.html): failed to open stream: No such file or directory in /home/kangycom/minox/envia.php on line 29
+[23-Jul-2019 15:47:58 America/Mexico_City] PHP Warning:  include(): Failed opening 'confirma.html' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/kangycom/minox/envia.php on line 29
+[23-Jul-2019 15:53:54 America/Mexico_City] PHP Warning:  include(confirma.html): failed to open stream: No such file or directory in /home/kangycom/minox/envia.php on line 29
+[23-Jul-2019 15:53:54 America/Mexico_City] PHP Warning:  include(confirma.html): failed to open stream: No such file or directory in /home/kangycom/minox/envia.php on line 29
+[23-Jul-2019 15:53:54 America/Mexico_City] PHP Warning:  include(): Failed opening 'confirma.html' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/kangycom/minox/envia.php on line 29
