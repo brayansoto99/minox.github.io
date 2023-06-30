@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+
+/*.fondo-blanco{
+  background-attachment: scroll;
+  background: url(http://localhost/minox/img/particulas.mp4);
+}*/
+
+.fondocss {
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+}
+
+.fondocssmat {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+.fondocss2 {
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.contenido{
+  align-content: center;
+}
+
+.cajon{
+  color: #fff;
+  align-content: center;
+}
+
+.cajon p {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/*...................................*/
+.tarjeta {
+  width: 600px;/*385px;*/
+  height: 350px;
+
+}
+.tarjeta .wrappers {
+  background-color: #fff;
+  min-height: 350px;
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta .wrappers:hover .datos {
+  -webkit-transform: translateX(100px);
+          transform: translateX(-520px);
+  filter: saturate(200%);
+}
+
+.tarjeta .datos {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateX(calc(0px + 5em));
+          transform: translateX(calc(0px + 5em));
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  top: 60px;
+  right: -520px;
+}
+
+.ejemplo-1 .wrappers {
+  background: url(http://localhost/minox/img/nos.png) center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.ejemplo-1:hover .wrappers {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),    
+      rgba(0, 0, 0, 0.6)
+    ), url(http://localhost/minox/img/nos.png) center/cover no-repeat;
+}
+
+/*___________ industria(areas)__________*/
+.swiper-container {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide h3{
+  color: #000 !important;
+  transform: translateY(220px) translateX(-200px);
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  font-family: 'Acme', sans-serif;
+  font-size: 35px;
+}
+
+.swiper-slide .h31{
+  transform: translateY(220px) translateX(-180px);
+}
+
+.swiper-slide .h32{
+  transform:  translateX(190px);
+}
+
+.swiper-slide .h33{
+  transform: translateY(200px) translateX(150px);
+}
+
+/*______fondo areas */
+
+#areas {
+    position: relative;
+    overflow: hidden;
+}
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    z-index: 0;
+}

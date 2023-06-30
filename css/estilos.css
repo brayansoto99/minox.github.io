@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Lobster+Two|Slabo+27px');
+
+
+#certi2 a:hover{
+    color: #ff1d22 !important;
+    text-decoration: none;
+}
+
+.caja{
+  padding: 35px;
+  color: #fff;
+  align-items: center;
+}
+.caja h1{
+  font-family: 'Lobster', cursive;
+  font-weight: 550;
+  font-size: 50px;
+  padding: 15px;
+  text-align: center;
+}
+.caja p {
+  font-family: 'Merienda', cursive;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  padding: 15px;
+  transform: translateY(-20px);
+}
+
+
+/*...................................*/
+.card {
+  float: left;
+  width: 385px;
+  height: 250px;
+
+}
+.card .wrapper {
+  background-color: #fff;
+  min-height: 250px;
+  width: 385px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card .wrapper:hover .data {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-120px);
+  filter: saturate(200%);
+}
+
+.card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(0px + 5em));
+          transform: translateY(calc(0px + 5em));
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  top: 50px;
+}
+
+.example-1 .wrapper {
+  background: url(http://localhost/minox/img/analisiscard.jpg) center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.example-1:hover .wrapper {
+  background: linear-gradient(
+      rgba(234, 36, 36, 0.6),    
+      rgba(234, 36, 36, 0.6)
+    ), url(http://localhost/minox/img/analisiscard.jpg) center/cover no-repeat;
+}
+
+/*...................................*/
+.caja2{
+  padding: 35px;
+  color: #fff;
+  align-items: center;
+  transform: translateX(165px);
+}
+.caja2 h1{
+  font-family: 'Lobster', cursive;
+  font-weight: 550;
+  font-size: 50px;
+  padding: 15px;
+  text-align: center;
+}
+.caja2 p {
+  font-family: 'Merienda', cursive;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: right;
+  padding: 15px;
+  transform: translateY(-20px);
+}
+
+
+
+.card2 {
+  float: right;
+  width: 385px;
+  height: 250px;
+
+}
+.card2 .wrapper {
+  background-color: #fff;
+  min-height: 250px;
+  width: 385px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card2 .wrapper:hover .data {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-120px);
+  filter: saturate(200%);
+}
+
+.card2 .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(0px + 5em));
+          transform: translateY(calc(0px + 5em));
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  top: 50px;
+}
+
+.example-2 .wrapper {
+  background: url(http://localhost/minox/img/ceracard.jpg) center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.example-2:hover .wrapper {
+  background: linear-gradient(
+      rgba(234, 36, 36, 0.6),    
+      rgba(234, 36, 36, 0.6)
+    ), url(http://localhost/minox/img/ceracard.jpg) center/cover no-repeat;
+}
+/*................TARJETA 3 politicas...................*/
+
+.card .wrapper:hover .data3 {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-150px);
+  filter: saturate(200%);
+}
+
+.card .data3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(0px + 5em));
+          transform: translateY(calc(0px + 5em));
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  top: -10px;
+}
+
+.example-3 .wrapper {
+  background: url(http://localhost/minox/img/fundicioncard.jpg) center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.example-3:hover .wrapper {
+  background: linear-gradient(
+      rgba(234, 36, 36, 0.6),    
+      rgba(234, 36, 36, 0.6)
+    ), url(http://localhost/minox/img/fundicioncard.jpg) center/cover no-repeat;
+}
+
+
+/*................TARJETA 4 objetivos...................*/
+
+.card2 .wrapper:hover .data2 {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-120px);
+  filter: saturate(200%);
+}
+
+.card2 .data2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(0px + 5em));
+          transform: translateY(calc(0px + 5em));
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  top: -10px;
+}
+
+.example-4 .wrapper {
+  background: url(http://localhost/minox/img/moldeocard.jpg) center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.example-4:hover .wrapper {
+  background: linear-gradient(
+      rgba(234, 36, 36, 0.6),    
+      rgba(234, 36, 36, 0.6)
+    ), url(http://localhost/minox/img/moldeocard.jpg) center/cover no-repeat;
+}
+
+/*...................................*/
+
+/*clientes */
+
+#clientes .container .row img:hover{
+	background: linear-gradient(
+      rgba(255, 29, 34, 0.6),    
+      rgba(255, 29, 34, 0.6)
+    );
+}
+
+
+
+/* misión, vision etc */
+
+
+.services-icon {
+  color: #fff;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.section-headline.services-head>h2 {
+  margin-bottom: 25px;
+}
+
+.services-details {
+  padding-top: 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.services-details:hover h4, .services-details:hover .services-icon {
+  color: #ff1d22;
+}
+
+.row.second-row {
+  margin-top: 20px;
+}
+
+.section-head>h2 {
+  color: #333;
+}
+
+.single-services>h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.single-services>p {
+  color: #fff;
+  font-size: 14px;
+}
+#videof {
+  position: fixed;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.qt-background{
+	background: url(../img/fundidora.png) no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+}
+  /* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
+  .videof{
+  width:100%;
+  }
+
+/*-------BOTON BRILLANTE------------------*/
+
+#boton {
+  --glow-color: rgb(255, 0, 0);
+  --glow-spread-color: rgba(255, 81, 0, 0.76);
+  --enhanced-glow-color: rgb(255, 0, 0);
+  --btn-color: rgb(255, 136, 0);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 1em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+ }
+ 
+ 
+ #boton::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ }
+ 
+ #boton:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 2em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+ }
+ 
+ #boton:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+         0 0 2.5em 2em var(--glow-spread-color),
+         inset 0 0 .5em .25em var(--glow-color);
+ }
+/*PONER BORDE A TODO*/
+ .borde{
+  text-shadow: 
+      1px 0 0 #000, 
+      -1px 0 0 #000, 0 
+      2px 0 #000, 0 
+      -1px 0 #000, 
+      1px 1px #000, 
+      -1px -1px 0 #000, 
+      1px -1px 0 #000, 
+      -1px 1px 0 #000;
+}
+
+/*--------bordes-----------------*/
+.borde1{
+
+  border:3px solid brown;
+  border-radius:22px;
+ 
+}
+.borde2{
+
+  border:3px solid rgb(0, 0, 0);
+  border-radius:22px;
+ 
+}
+
+/*SLIDER*/
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+
+
+}
